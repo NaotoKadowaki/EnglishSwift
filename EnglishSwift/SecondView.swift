@@ -17,6 +17,7 @@ struct SecondView: View {
             Text(word.japanese)
             Text(word.pronunciation)
                 .font(.title3)
+            Text(word.core)
 //            if word == "little" {
 //                Text("小さい")
 //            }else if word == "think" {
@@ -40,6 +41,6 @@ struct SecondView: View {
 
 struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
-        SecondView(word:Word(japanese: "はな", english: "hana", pronunciation: "発音"))
+        SecondView(word:Word(japanese: "意味", english: "スペル", pronunciation: "発音",core: "確信"))
     }
 }

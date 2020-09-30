@@ -12,7 +12,7 @@ struct SecondView: View {
     
     var word:Word
     
-    @State var text = ""
+//    @State var text = "Apple"
     
     var body: some View {
         VStack(spacing:20) {
@@ -30,7 +30,7 @@ struct SecondView: View {
             Button(action: {
                 let utterance = AVSpeechUtterance(string: self.word.english)
                 //                utterance.voice = AVSpeechSynthesisVoice(language: "ja-JP")
-                //                utterance.voice = AVSpeechSynthesisVoice(language: "zh-CN")中国
+                //                utterance.voice = AVSpeechSynthesisVoice(language: "zh-CN")China
                 utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
                 
                 utterance.rate = 0.4

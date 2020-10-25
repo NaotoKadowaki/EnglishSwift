@@ -42,19 +42,19 @@ struct ContentView: View {
         Word(japanese:"月曜日", english:"Monday",pronunciation:"mˈʌndèɪ(米国英語)", core:""),  Word(japanese:"火曜日", english:"Tuesday",pronunciation:"t(j)úːzdèɪ(米国英語)", core:""),
         Word(japanese:"水曜日", english:"Wednesday",pronunciation:"wénzdèɪ(米国英語)", core:""),  Word(japanese:"木曜日", english:"Thursday",pronunciation:"θˈɚːzdèɪ(米国英語", core:""),
         Word(japanese:"金曜日", english:"Friday",pronunciation:"frάɪdèɪ(米国英語),", core:""),  Word(japanese:"土曜日", english:"Saturday",pronunciation:"sˈæṭɚdèɪ(米国英語)", core:""),
-        Word(japanese:"日曜日", english:"Sunday",pronunciation:"sˈæṭɚdèɪ(米国英語)", core:""),  Word(japanese:"月", english:"month",pronunciation:"", core:""),
+        Word(japanese:"日曜日", english:"Sunday",pronunciation:"sˈæṭɚdèɪ(米国英語)", core:""),  Word(japanese:"月", english:"month",pronunciation:"mˈʌnθ", core:""),
         Word(japanese:"1月", english:"January",pronunciation:"dʒˈænjuèri(米国英語)", core:""),  Word(japanese:"2月", english:"February",pronunciation:"fébruèri(米国英語)", core:""),
         Word(japanese:"3月", english:"March",pronunciation:"mάɚtʃ(米国英語)", core:""),  Word(japanese:"4月", english:"April",pronunciation:"éɪprəl(米国英語)", core:""),
         Word(japanese:"5月", english:"May",pronunciation:"méɪ(米国英語)", core:""),  Word(japanese:"6月", english:"June",pronunciation:"dʒúːn(米国英語)", core:""),
         Word(japanese:"7月", english:"July",pronunciation:"dʒʊlάɪ(米国英語)", core:""),  Word(japanese:"8月", english:"August",pronunciation:"ˈɔːgəst",core:""),
         Word(japanese:"9月", english:"September",pronunciation:"septémbɚ(米国英語)", core:""),  Word(japanese:"10月", english:"October",pronunciation:"ɑktóʊbɚ(米国英語)", core:""),
         Word(japanese:"11月", english:"November",pronunciation:"noʊvémbɚ(米国英語)", core:""),  Word(japanese:"12月", english:"December",pronunciation:"dɪsémbɚ(米国英語", core:""),
-        Word(japanese:"生きて、生存して", english:"alive",pronunciation:"əlάɪv(米国英語)", core:""),  Word(japanese:"する、行う", english:"do",pronunciation:"", core:""),
-        Word(japanese:"楽しむ", english:"enjoy",pronunciation:"", core:""),  Word(japanese:"do３人単数現在形", english:"does",pronunciation:"", core:""),
-        Word(japanese:"タイヤ、ゴム、コンドーム", english:"rubber",pronunciation:"", core:""),  Word(japanese:"くる、やってくる", english:"come",pronunciation:"", core:""),
-        Word(japanese:"〜から", english:"from",pronunciation:"", core:""),  Word(japanese:"意味する、示す", english:"mean",pronunciation:"", core:""),
-        Word(japanese:"しばしば、たびたび、よく", english:"often",pronunciation:"", core:""),  Word(japanese:"長期旅行", english:"travel",pronunciation:"", core:""),
-        Word(japanese:"〜の面して、上に", english:"on",pronunciation:"", core:""),  Word(japanese:"たくさんの、多量の", english:"much",pronunciation:"", core:""),
+        Word(japanese:"生きて、生存して", english:"alive",pronunciation:"əlάɪv(米国英語)", core:""),  Word(japanese:"する、行う", english:"do",pronunciation:"díṭoʊ", core:""),
+        Word(japanese:"楽しむ", english:"enjoy",pronunciation:"ɪndʒˈɔɪ", core:"何かから楽しみ［有益なもの］を得る"),  Word(japanese:"do３人単数現在形", english:"does",pronunciation:"dˈʌz", core:""),
+        Word(japanese:"タイヤ、ゴム、コンドーム", english:"rubber",pronunciation:"rˈʌbɚ", core:""),  Word(japanese:"くる、やってくる", english:"come",pronunciation:"kˈʌm", core:"視点のあるところに移動する(通常は話し手の所へ「来る」こと．心理的視点が相手の所にある時は相手の所へ「行く」)"),
+        Word(japanese:"〜から", english:"from",pronunciation:"(弱形)frəm; (強形)frάm", core:"（物事の起点を示して）…から"),  Word(japanese:"意味する、示す", english:"mean",pronunciation:"míːn", core:"意味する「（記号が）…を意味する」だけでなく「（事柄が）…を意味する」「（人が）…を意味する」という状況で使える"),
+        Word(japanese:"しばしば、たびたび、よく", english:"often",pronunciation:"ˈɔːf(ə)n", core:""),  Word(japanese:"長期旅行", english:"travel",pronunciation:"trˈæv(ə)l", core:""),
+        Word(japanese:"〜の面して、上に", english:"on",pronunciation:"ɔːn", core:"…に接触して（水平・垂直方向を問わず「接触関係」を表す）"),  Word(japanese:"たくさんの、多量の", english:"much",pronunciation:"", core:""),
         Word(japanese:"遊ぶ", english:"play",pronunciation:"", core:""),  Word(japanese:"親", english:"parent",pronunciation:"", core:""),
         Word(japanese:"両方の、両者の", english:"both",pronunciation:"", core:""),  Word(japanese:"国外へ、海外へ（広まって）", english:"abroad",pronunciation:"", core:""),
         Word(japanese:"結合する、仲間になる、繋げる", english:"join",pronunciation:"", core:""),  Word(japanese:"間に、間中に", english:"during",pronunciation:"", core:""),
@@ -137,6 +137,7 @@ struct ContentView: View {
             
             .navigationBarTitle(Text("Search"))
         }
+        
         //            HStack {
         //
         //                List(0 ..< Ee.count) { item in
